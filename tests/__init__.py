@@ -1,2 +1,2 @@
 from .test_bloom import TestBloom
-from .test_hashes import TestHashes
+from .test_hash_zlib import TestHashZlib

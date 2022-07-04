@@ -7,7 +7,7 @@ README_FP = path.join(path.dirname(__file__), 'README.md')
 
 setup(
     name = 'cbloom',
-    version = '0.0.1a5',
+    version = '0.1.0',
     author='IDDT',
     author_email='IDDT@users.noreply.github.com',
     url='https://github.com/IDDT/cbloom',
@@ -27,7 +27,7 @@ setup(
         Extension(
             'cbloom',
             sources=[
-                'src/hashes.c',
+                'src/hash_zlib.c',
                 'src/m_cbloom_methods.c',
                 'src/m_cbloom.c',
                 'src/t_bloom.c'
